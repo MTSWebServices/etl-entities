@@ -72,7 +72,7 @@ dev = [
 ]
 docs = [
     "furo~=2025.12.19",
-    "numpydoc~=1.10.0",
+    "numpydoc>=1.10,<1.12",
     "packaging>=25,<27",
     # sphinx-toolbox doesn't support Sphinx 9 yet
     "sphinx~=8.2.3",
@@ -80,7 +80,7 @@ docs = [
     "sphinx-last-updated-by-git~=0.3.8",
     "sphinx-toolbox>=4.1,<4.4",
     "sphinxcontrib-towncrier~=0.5.0a0",
-    "towncrier~=25.8.0",
+    "towncrier>=25.8,<26.10",
 ]
 
 [tool.uv]
